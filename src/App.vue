@@ -43,10 +43,12 @@ export default {
           {{ project.title }} - {{ project.author }}</li>
         </ul>
       </div>
-      <p v-else> Loading... </p> <!-- da aggiungere error message-->
+      <p v-else> Loading... </p> <!-- da aggiungere error message -->
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 </style>
+
+<!-- aggiunta messaggio -->
