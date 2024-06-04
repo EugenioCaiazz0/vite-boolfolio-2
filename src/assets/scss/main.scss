@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    max-width: 800px;
+    padding: 30px;
+}
+
+ul{
+    list-style: none;
+    li{
+        padding-top: 15px;
+    }
+}
